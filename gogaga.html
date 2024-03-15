@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Gogaga Holidays</title>
+    <link rel="stylesheet" href="gogaga.css">
+
+</head>
+<body>
+  <!--Header section start-->
+  <header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+  <a href="#" class="logo"><img src="gogagaimage.webp" /></a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#bookings">book</a>
+      <a href="#packges">packages</a>
+      <a href="#services">services</a>
+      <a href="#contacts">Contacts</a>
+    </nav>    
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search for your dream destinations...." />
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+  <!--Header section ends-->
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your mail">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>Forget password?<a href="#">Click here</a></p>
+        <p>Don't have an account?<a href="#">Register</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>You don't have to be rich to travel well</h3>
+        <p>Discover new places with us ,adventure awaits</p>
+        <a href="#" class="btn">Discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="video1.mp4"></span>
+        <span class="vid-btn" data-src="video2.mp4"></span>
+        <span class="vid-btn" data-src="video3.mp4"></span>
+        <span class="vid-btn" data-src="video4.mp4"></span>
+        <span class="vid-btn" data-src="video5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="video1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+        
+
+<section class="book" id="bookings">
+    <h1 class="heading">
+        <span>B</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>N</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+      <div class="image">
+        <img src="photo2.jpg" alt="">
+      </div>
+    <form action="">
+    <div class="inputBox">
+        <h1>Where to</h1>
+        <input type="text" placeholder="place name">
+    </div>
+    <div class="inputBox">
+        <h1>how many</h1>
+        <input type="numver" placeholder="no:of guests">
+    </div>
+    <div class="inputBox">
+        <h1>arrivals</h1>
+        <input type="date">
+    </div>
+    <div class="inputBox">
+        <h1>Leaving</h1>
+        <input type="date">
+    </div>
+    <input type="submit" class="btn" value="book now"/>
+    </form>
+</div>
+</section>
+
+<section class="packages" id="packges">
+    <h1 class="heading">
+        <span>P</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="photo3.jpg" alt=""/>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                <p>Mumbai, the vibrant city of dreams</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$90.00<span>$120.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photo4.jpg" alt=""/>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Tokoyo</h3>
+                <p>Tokyo: a bustling metropolis where tradition and modernity intertwine amidst neon-lit streets.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$120.00<span>$190.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photo5.jpg" alt=""/>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Egypt</h3>
+                <p>Egypt: Land of ancient wonders and timeless treasures.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$190.00<span>$220.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photo6.jpg" alt=""/>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Italy</h3>
+                <p>Italy: Where art, history, and pasta intertwine.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$220.00<span>$280.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photo1.avif" alt=""/>
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Paris</h3>
+                <p>Paris: Where romance dances on cobblestone streets beneath the gaze of iconic landmarks.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$220.00<span>$280.00</span></div>
+                <a href="#" class="btn">Book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>S</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fa fa-hotel"></i>
+            <h1>Affordable prices</h1>
+            <p>Discover comfortable stays without breaking the bank at our affordable hotels</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-utensils"></i>
+            <h1>food and drinks</h1>
+            <p>Equipping kitchens with utensils for every culinary need</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-bullhorn"></i>
+            <h1>Safety guide</h1>
+            <p>Your gateway to safe travels with expert safety guides.</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-globe-asia"></i>
+            <h1>around the world</h1>
+            <p>Go whereever you want</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-plane"></i>
+            <h1>fastest travel</h1>
+            <p>Planes are avilable for fastest travel</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-hiking"></i>
+            <h1>Adventures</h1>
+            <p>More adventures more fun</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<script src="gogaga.js"></script>
+</body>
+</html>
+
